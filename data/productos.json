@@ -1,0 +1,58 @@
+[
+  {
+    "id": "maiz-partido-25kg",
+    "nombre": "Maiz Partido 25 kg",
+    "categoria": "Forrajeria",
+    "descripcion": "Bolsa de maiz partido para alimento animal.",
+    "marca": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "stock": "alto",
+    "destacado": true,
+    "escalaPrecio": "Consultar por pallet"
+  },
+  {
+    "id": "balanceado-ponedora-20kg",
+    "nombre": "Balanceado Ponedora 20 kg",
+    "categoria": "Balanceados",
+    "descripcion": "Formula para aves ponedoras con aporte mineral.",
+    "marca": "Marquez",
+    "unidad": "Bolsa 20 kg",
+    "stock": "medio"
+  },
+  {
+    "id": "alambre-ovalado-1000m",
+    "nombre": "Alambre Ovalado 1000 m",
+    "categoria": "Ferreteria Rural",
+    "descripcion": "Rollo de alambre ovalado para alambrados rurales.",
+    "marca": "Acindar",
+    "unidad": "Rollo",
+    "stock": "consultar"
+  },
+  {
+    "id": "sal-mineral-25kg",
+    "nombre": "Sal Mineral 25 kg",
+    "categoria": "Suplementos",
+    "descripcion": "Suplemento mineral para ganado.",
+    "marca": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "stock": "bajo"
+  },
+  {
+    "id": "comedero-plastico-12l",
+    "nombre": "Comedero Plastico 12 l",
+    "categoria": "Accesorios",
+    "descripcion": "Comedero resistente para granja y corral.",
+    "unidad": "Unidad",
+    "stock": "alto"
+  },
+  {
+    "id": "semilla-alfalfa-5kg",
+    "nombre": "Semilla de Alfalfa 5 kg",
+    "categoria": "Semillas",
+    "descripcion": "Semilla seleccionada para siembra forrajera.",
+    "marca": "Premium Seed",
+    "unidad": "Bolsa 5 kg",
+    "stock": "medio",
+    "destacado": true
+  }
+]

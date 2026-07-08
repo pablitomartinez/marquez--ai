@@ -1,0 +1,10 @@
+{
+  "name": "Marquez & Cia Catalogo Dinamico",
+  "short_name": "Marquez",
+  "description": "Catalogo digital mobile-first para preventa.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f6ed",
+  "theme_color": "#facc15",
+  "orientation": "portrait"
+}
