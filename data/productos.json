@@ -8,7 +8,8 @@
     "unidad": "Bolsa 25 kg",
     "stock": "alto",
     "destacado": true,
-    "escalaPrecio": "Consultar por pallet"
+    "escalaPrecio": "Consultar por pallet",
+    "tags": ["forrajeria", "granja"]
   },
   {
     "id": "balanceado-ponedora-20kg",
@@ -17,7 +18,8 @@
     "descripcion": "Formula para aves ponedoras con aporte mineral.",
     "marca": "Marquez",
     "unidad": "Bolsa 20 kg",
-    "stock": "medio"
+    "stock": "medio",
+    "tags": ["granja", "forrajeria", "veterinaria"]
   },
   {
     "id": "alambre-ovalado-1000m",
@@ -26,7 +28,8 @@
     "descripcion": "Rollo de alambre ovalado para alambrados rurales.",
     "marca": "Acindar",
     "unidad": "Rollo",
-    "stock": "consultar"
+    "stock": "consultar",
+    "tags": ["ferreteria", "granja"]
   },
   {
     "id": "sal-mineral-25kg",
@@ -35,7 +38,8 @@
     "descripcion": "Suplemento mineral para ganado.",
     "marca": "Marquez",
     "unidad": "Bolsa 25 kg",
-    "stock": "bajo"
+    "stock": "bajo",
+    "tags": ["granja", "forrajeria"]
   },
   {
     "id": "comedero-plastico-12l",
@@ -43,7 +47,8 @@
     "categoria": "Accesorios",
     "descripcion": "Comedero resistente para granja y corral.",
     "unidad": "Unidad",
-    "stock": "alto"
+    "stock": "alto",
+    "tags": ["granja", "petshop", "veterinaria"]
   },
   {
     "id": "semilla-alfalfa-5kg",
@@ -53,6 +58,7 @@
     "marca": "Premium Seed",
     "unidad": "Bolsa 5 kg",
     "stock": "medio",
-    "destacado": true
+    "destacado": true,
+    "tags": ["forrajeria", "granja"]
   }
 ]

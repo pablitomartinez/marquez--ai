@@ -1,12 +1,18 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { motion } from "framer-motion";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { MessageCircle, Search, X } from "lucide-react";
+import { CategoryBanner } from "@/components/features/catalog/CategoryBanner";
 import { CatalogGrid } from "@/components/features/catalog/CatalogGrid";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { cn } from "@/lib/utils";
+import {
+  getNichoWhatsAppMessage,
+  matchesNicho,
+  parseNichoSlug,
+  type NichoSlug,
+} from "./catalog-nichos";
 import type { Producto } from "@/types/product";
 
 type CatalogPageProps = {
@@ -15,10 +21,7 @@ type CatalogPageProps = {
 
 const whatsappNumber = "";
 
-function buildWhatsAppUrl(producto?: Producto) {
-  const text = producto
-    ? `Hola, vi el catalogo digital y necesito consultar por: ${producto.nombre}`
-    : "Hola, vi el catalogo digital y necesito hacer una consulta.";
+function buildWhatsAppUrl(text: string) {
   const baseUrl = whatsappNumber
     ? `https://wa.me/${whatsappNumber}`
     : "https://wa.me/";
@@ -26,24 +29,31 @@ function buildWhatsAppUrl(producto?: Producto) {
   return `${baseUrl}?text=${encodeURIComponent(text)}`;
 }
 
+function buildProductWhatsAppMessage(producto?: Producto) {
+  return producto
+    ? `Hola, vi el catalogo digital y necesito consultar por: ${producto.nombre}`
+    : "Hola, vi el catalogo digital y necesito hacer una consulta.";
+}
+
 export function CatalogPage({ productos }: CatalogPageProps) {
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const searchParamsString = searchParams.toString();
   const [query, setQuery] = useState("");
-  const [categoriaActiva, setCategoriaActiva] = useState("Todos");
   const [productoSeleccionado, setProductoSeleccionado] = useState<
     Producto | undefined
   >();
 
-  const categorias = useMemo(() => {
-    const unique = new Set(productos.map((producto) => producto.categoria));
-    return ["Todos", ...Array.from(unique).sort((a, b) => a.localeCompare(b))];
-  }, [productos]);
+  const nichoActivo = useMemo(
+    () => parseNichoSlug(new URLSearchParams(searchParamsString).get("nicho")),
+    [searchParamsString],
+  );
 
-  const productosFiltrados = useMemo(() => {
+  const productosBuscados = useMemo(() => {
     const normalizedQuery = query.trim().toLocaleLowerCase("es-AR");
 
     return productos.filter((producto) => {
-      const matchesCategoria =
-        categoriaActiva === "Todos" || producto.categoria === categoriaActiva;
       const searchableText = [
         producto.nombre,
         producto.categoria,
@@ -56,11 +66,32 @@ export function CatalogPage({ productos }: CatalogPageProps) {
         .join(" ")
         .toLocaleLowerCase("es-AR");
 
-      return matchesCategoria && searchableText.includes(normalizedQuery);
+      return searchableText.includes(normalizedQuery);
     });
-  }, [categoriaActiva, productos, query]);
+  }, [productos, query]);
 
-  const whatsappUrl = buildWhatsAppUrl(productoSeleccionado);
+  const productosFiltrados = useMemo(
+    () =>
+      productosBuscados.filter((producto) => matchesNicho(producto, nichoActivo)),
+    [nichoActivo, productosBuscados],
+  );
+
+  const handleNichoChange = (nextNicho: NichoSlug | null) => {
+    const nextParams = new URLSearchParams(searchParamsString);
+
+    if (nextNicho) {
+      nextParams.set("nicho", nextNicho);
+    } else {
+      nextParams.delete("nicho");
+    }
+
+    const nextQuery = nextParams.toString();
+    router.replace(nextQuery ? `${pathname}?${nextQuery}` : pathname, {
+      scroll: false,
+    });
+  };
+
+  const whatsappUrl = buildWhatsAppUrl(getNichoWhatsAppMessage(nichoActivo));
 
   return (
     <main className="min-h-screen pb-28">
@@ -108,37 +139,10 @@ export function CatalogPage({ productos }: CatalogPageProps) {
             ) : null}
           </label>
 
-          <nav
-            className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1"
-            aria-label="Categorias de productos"
-          >
-            {categorias.map((categoria) => {
-              const isActive = categoria === categoriaActiva;
-
-              return (
-                <button
-                  key={categoria}
-                  type="button"
-                  onClick={() => setCategoriaActiva(categoria)}
-                  className={cn(
-                    "relative shrink-0 rounded-md border px-3 py-2 text-sm font-semibold transition-colors",
-                    isActive
-                      ? "border-zinc-950 bg-zinc-950 text-primary"
-                      : "bg-white text-zinc-700 hover:border-zinc-950",
-                  )}
-                  aria-pressed={isActive}
-                >
-                  {categoria}
-                  {isActive ? (
-                    <motion.span
-                      layoutId="categoria-activa"
-                      className="absolute inset-x-3 -bottom-1 h-1 rounded-full bg-primary"
-                    />
-                  ) : null}
-                </button>
-              );
-            })}
-          </nav>
+          <CategoryBanner
+            activeNicho={nichoActivo}
+            onChange={handleNichoChange}
+          />
         </div>
       </header>
 
@@ -155,10 +159,15 @@ export function CatalogPage({ productos }: CatalogPageProps) {
         </div>
 
         <CatalogGrid
-          productos={productosFiltrados}
+          productos={productosBuscados}
+          nicho={nichoActivo}
           onConsultar={(producto) => {
             setProductoSeleccionado(producto);
-            window.open(buildWhatsAppUrl(producto), "_blank", "noreferrer");
+            window.open(
+              buildWhatsAppUrl(buildProductWhatsAppMessage(producto)),
+              "_blank",
+              "noreferrer",
+            );
           }}
         />
 
@@ -166,7 +175,7 @@ export function CatalogPage({ productos }: CatalogPageProps) {
           <div className="mt-12 rounded-lg border border-dashed bg-white p-8 text-center">
             <p className="font-semibold">No hay productos para este filtro.</p>
             <p className="mt-2 text-sm text-muted-foreground">
-              Proba con otra categoria o ajusta la busqueda.
+              Proba con otro nicho o ajusta la busqueda.
             </p>
           </div>
         ) : null}

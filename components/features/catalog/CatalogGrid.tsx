@@ -13,10 +13,12 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import type { Producto } from "@/types/product";
+import { matchesNicho, type NichoSlug } from "./catalog-nichos";
 
 type CatalogGridProps = {
   productos: Producto[];
   onConsultar: (producto: Producto) => void;
+  nicho?: NichoSlug | null;
 };
 
 const stockLabel: Record<NonNullable<Producto["stock"]>, string> = {
@@ -26,7 +28,15 @@ const stockLabel: Record<NonNullable<Producto["stock"]>, string> = {
   consultar: "Consultar",
 };
 
-export function CatalogGrid({ productos, onConsultar }: CatalogGridProps) {
+export function CatalogGrid({
+  productos,
+  onConsultar,
+  nicho = null,
+}: CatalogGridProps) {
+  const productosVisibles = productos.filter((producto) =>
+    matchesNicho(producto, nicho),
+  );
+
   return (
     <motion.section
       layout
@@ -34,7 +44,7 @@ export function CatalogGrid({ productos, onConsultar }: CatalogGridProps) {
       aria-live="polite"
     >
       <AnimatePresence mode="popLayout">
-        {productos.map((producto) => (
+        {productosVisibles.map((producto) => (
           <motion.article
             key={producto.id}
             layout

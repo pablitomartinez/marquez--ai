@@ -10,5 +10,7 @@ export type Producto = {
   stock?: "alto" | "medio" | "bajo" | "consultar";
   destacado?: boolean;
   escalaPrecio?: string;
+  tags?: string[];
+  nichos?: string[];
   [key: string]: unknown;
 };
