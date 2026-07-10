@@ -4,8 +4,9 @@ import type { Producto } from "@/types/product";
 import { Suspense } from "react";
 
 export default function Home() {
-  return
-  <Suspense fallback={<div>Cargando...</div>}>
-    <CatalogPage productos={productos as Producto[]} />;
-  </Suspense>
+  return (
+    <Suspense fallback={<div>Cargando...</div>}>
+      <CatalogPage productos={productos as Producto[]} />
+    </Suspense>
+  );
 }
