@@ -1,64 +1,46 @@
 [
   {
-    "id": "maiz-partido-25kg",
-    "nombre": "Maiz Partido 25 kg",
-    "categoria": "Forrajeria",
-    "descripcion": "Bolsa de maiz partido para alimento animal.",
-    "marca": "Marquez",
-    "unidad": "Bolsa 25 kg",
+    "id": "purina-dogui-adulto-21kg",
+    "nombre": "Dogui Adulto x 21 Kg",
+    "categoria": "Mascotas",
+    "descripcion": "Alimento completo para perros adultos.",
+    "proveedor": "Purina",
+    "unidad": "Bolsa 21 kg",
+    "precios": {
+      "unidad": 41350,
+      "masDe2": 39282.50,
+      "masDe10": 35974.50
+    },
     "stock": "alto",
     "destacado": true,
-    "escalaPrecio": "Consultar por pallet",
-    "tags": ["forrajeria", "granja"]
+    "tags": ["mascotas", "perros", "forrajeria", "petshop"]
   },
   {
-    "id": "balanceado-ponedora-20kg",
-    "nombre": "Balanceado Ponedora 20 kg",
-    "categoria": "Balanceados",
-    "descripcion": "Formula para aves ponedoras con aporte mineral.",
-    "marca": "Marquez",
+    "id": "purina-dogui-cachorro-21kg",
+    "nombre": "Dogui Cachorro x 21 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Purina",
+    "unidad": "Bolsa 21 kg",
+    "precios": {
+      "unidad": 45400,
+      "masDe2": 43130,
+      "masDe10": 39498
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "perros", "cachorros", "petshop"]
+  },
+  {
+    "id": "purina-dogchow-adulto-peq-20kg",
+    "nombre": "Dog Chow Adulto Raza Peq. Triple P. x 20 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Purina",
     "unidad": "Bolsa 20 kg",
-    "stock": "medio",
-    "tags": ["granja", "forrajeria", "veterinaria"]
-  },
-  {
-    "id": "alambre-ovalado-1000m",
-    "nombre": "Alambre Ovalado 1000 m",
-    "categoria": "Ferreteria Rural",
-    "descripcion": "Rollo de alambre ovalado para alambrados rurales.",
-    "marca": "Acindar",
-    "unidad": "Rollo",
+    "precios": {
+      "unidad": 59960,
+      "masDe2": 57561.60,
+      "masDe10": 55163.20
+    },
     "stock": "consultar",
-    "tags": ["ferreteria", "granja"]
-  },
-  {
-    "id": "sal-mineral-25kg",
-    "nombre": "Sal Mineral 25 kg",
-    "categoria": "Suplementos",
-    "descripcion": "Suplemento mineral para ganado.",
-    "marca": "Marquez",
-    "unidad": "Bolsa 25 kg",
-    "stock": "bajo",
-    "tags": ["granja", "forrajeria"]
-  },
-  {
-    "id": "comedero-plastico-12l",
-    "nombre": "Comedero Plastico 12 l",
-    "categoria": "Accesorios",
-    "descripcion": "Comedero resistente para granja y corral.",
-    "unidad": "Unidad",
-    "stock": "alto",
-    "tags": ["granja", "petshop", "veterinaria"]
-  },
-  {
-    "id": "semilla-alfalfa-5kg",
-    "nombre": "Semilla de Alfalfa 5 kg",
-    "categoria": "Semillas",
-    "descripcion": "Semilla seleccionada para siembra forrajera.",
-    "marca": "Premium Seed",
-    "unidad": "Bolsa 5 kg",
-    "stock": "medio",
-    "destacado": true,
-    "tags": ["forrajeria", "granja"]
+    "tags": ["mascotas", "perros", "premium", "veterinaria"]
   }
 ]

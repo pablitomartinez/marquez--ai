@@ -28,6 +28,15 @@ const stockLabel: Record<NonNullable<Producto["stock"]>, string> = {
   consultar: "Consultar",
 };
 
+// Función utilitaria para formatear el precio a ARS
+const formatearDinero = (monto: number) => {
+  return new Intl.NumberFormat("es-AR", {
+    style: "currency",
+    currency: "ARS",
+    maximumFractionDigits: 0,
+  }).format(monto);
+};
+
 export function CatalogGrid({
   productos,
   onConsultar,
@@ -94,8 +103,8 @@ export function CatalogGrid({
                 ) : null}
 
                 <div className="flex flex-wrap gap-2 text-xs">
-                  {producto.marca ? (
-                    <Badge variant="outline">{producto.marca}</Badge>
+                  {producto.proveedor ? (
+                    <Badge variant="outline">{producto.proveedor}</Badge>
                   ) : null}
                   {producto.unidad ? (
                     <Badge variant="outline">{producto.unidad}</Badge>
@@ -103,10 +112,37 @@ export function CatalogGrid({
                   {producto.stock ? (
                     <Badge variant="secondary">{stockLabel[producto.stock]}</Badge>
                   ) : null}
-                  {producto.escalaPrecio ? (
-                    <Badge variant="outline">{producto.escalaPrecio}</Badge>
-                  ) : null}
                 </div>
+
+                {/* --- NUEVA TABLA DE PRECIOS B2B --- */}
+                {producto.precios ? (
+                  <div className="mt-4 rounded-md border border-zinc-200 bg-zinc-50 p-3">
+                    <div className="flex items-center justify-between text-sm">
+                      <span className="text-zinc-600">1 Unidad:</span>
+                      <span className="font-medium">
+                        {formatearDinero(producto.precios.unidad)}
+                      </span>
+                    </div>
+                    
+                    {producto.precios.masDe2 ? (
+                      <div className="mt-1 flex items-center justify-between border-t border-zinc-200 pt-1 text-sm">
+                        <span className="font-bold text-green-700">+2 Cantidad:</span>
+                        <span className="font-bold text-green-700">
+                          {formatearDinero(producto.precios.masDe2)}
+                        </span>
+                      </div>
+                    ) : null}
+
+                    {producto.precios.masDe10 ? (
+                      <div className="mt-1 flex items-center justify-between border-t border-zinc-200 pt-1 text-sm">
+                        <span className="font-black text-amber-600">+10 Cantidad:</span>
+                        <span className="font-black text-amber-600">
+                          {formatearDinero(producto.precios.masDe10)}
+                        </span>
+                      </div>
+                    ) : null}
+                  </div>
+                ) : null}
               </CardContent>
 
               <CardFooter>

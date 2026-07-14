@@ -3,13 +3,16 @@ export type Producto = {
   nombre: string;
   categoria: string;
   descripcion?: string;
-  marca?: string;
+  proveedor?: string; // Usamos proveedor en lugar de marca
   unidad?: string;
-  precio?: number;
+  precios?: {
+    unidad: number;
+    masDe2?: number;
+    masDe10?: number;
+  };
   imagen?: string;
   stock?: "alto" | "medio" | "bajo" | "consultar";
   destacado?: boolean;
-  escalaPrecio?: string;
   tags?: string[];
   nichos?: string[];
   [key: string]: unknown;

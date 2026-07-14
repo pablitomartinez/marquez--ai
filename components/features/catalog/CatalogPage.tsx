@@ -54,13 +54,13 @@ export function CatalogPage({ productos }: CatalogPageProps) {
     const normalizedQuery = query.trim().toLocaleLowerCase("es-AR");
 
     return productos.filter((producto) => {
+      // ACTUALIZADO: Buscamos por proveedor en vez de marca y sacamos escalaPrecio
       const searchableText = [
         producto.nombre,
         producto.categoria,
         producto.descripcion,
-        producto.marca,
+        producto.proveedor,
         producto.unidad,
-        producto.escalaPrecio,
       ]
         .filter(Boolean)
         .join(" ")
@@ -123,7 +123,7 @@ export function CatalogPage({ productos }: CatalogPageProps) {
               id="catalog-search"
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="Buscar producto, marca o rubro"
+              placeholder="Buscar producto, proveedor o rubro"
               className="pl-9 pr-10"
               type="search"
             />
