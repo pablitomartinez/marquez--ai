@@ -1130,5 +1130,1093 @@
     },
     "stock": "medio",
     "tags": ["mascotas", "perros", "shampoo", "estetica", "mk", "peluqueria canina"]
+  },
+  {
+    "id": "marquez-afrecho-maiz-bolsa",
+    "nombre": "Afrecho de Maíz",
+    "categoria": "Forrajeria",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa",
+    "precios": { "unidad": 20000 },
+    "stock": "alto",
+    "tags": ["forrajeria", "campo", "forrajes"]
+  },
+  {
+    "id": "marquez-afrechillo-bolsa",
+    "nombre": "Afrechillo",
+    "categoria": "Forrajeria",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa",
+    "precios": { "unidad": 9000 },
+    "stock": "alto",
+    "tags": ["forrajeria", "campo"]
+  },
+  {
+    "id": "marquez-afrechillo-trigo-bolsa",
+    "nombre": "Afrechillo de Trigo (Salvado)",
+    "categoria": "Forrajeria",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa",
+    "precios": { "unidad": 9300 },
+    "stock": "alto",
+    "tags": ["forrajeria", "campo", "trigo"]
+  },
+  {
+    "id": "marquez-alfalfa-fardo",
+    "nombre": "Alfalfa verde en Fardo",
+    "categoria": "Forrajeria",
+    "proveedor": "Marquez",
+    "unidad": "Fardo",
+    "precios": { "unidad": 7000 },
+    "stock": "alto",
+    "destacado": true,
+    "tags": ["forrajeria", "campo", "alfalfa"]
+  },
+  {
+    "id": "marquez-alpiste-kg",
+    "nombre": "Alpiste",
+    "categoria": "Semillas",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 1600 },
+    "stock": "alto",
+    "tags": ["semillas", "pajaros"]
+  },
+  {
+    "id": "guasch-alpiste-vitamina-kg",
+    "nombre": "Alpiste Guasch c/Vitamina",
+    "categoria": "Semillas",
+    "proveedor": "Guasch",
+    "unidad": "1 kg",
+    "precios": { "unidad": 3200 },
+    "stock": "alto",
+    "tags": ["semillas", "pajaros", "guasch"]
+  },
+  {
+    "id": "guasch-alpiste-clasico-kg",
+    "nombre": "Alpiste Guasch Clásico",
+    "categoria": "Semillas",
+    "proveedor": "Guasch",
+    "unidad": "1 kg",
+    "precios": { "unidad": 3100 },
+    "stock": "alto",
+    "tags": ["semillas", "pajaros", "guasch"]
+  },
+  {
+    "id": "marquez-avena-arrollada-kg",
+    "nombre": "Avena Arrollada",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 1400 },
+    "stock": "alto",
+    "tags": ["cereales", "avena"]
+  },
+  {
+    "id": "marquez-avena-grano-kg",
+    "nombre": "Avena en Grano",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 750 },
+    "stock": "alto",
+    "tags": ["cereales", "avena"]
+  },
+  {
+    "id": "marquez-avena-grano-bolsa30",
+    "nombre": "Avena en Grano",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 30 kg",
+    "precios": { "unidad": 21000 },
+    "stock": "alto",
+    "tags": ["cereales", "avena", "campo"]
+  },
+  {
+    "id": "marquez-avena-pelada-kg",
+    "nombre": "Avena Pelada",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 1400 },
+    "stock": "alto",
+    "tags": ["cereales", "avena"]
+  },
+  {
+    "id": "marquez-cebada-kg",
+    "nombre": "Cebada",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 700 },
+    "stock": "alto",
+    "tags": ["cereales", "cebada"]
+  },
+  {
+    "id": "marquez-cebada-perlada-kg",
+    "nombre": "Cebada Perlada",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 1000 },
+    "stock": "alto",
+    "tags": ["cereales", "cebada"]
+  },
+  {
+    "id": "marquez-garbanzo-kg",
+    "nombre": "Garbanzo",
+    "categoria": "Legumbres",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 3000 },
+    "stock": "alto",
+    "tags": ["legumbres"]
+  },
+  {
+    "id": "marquez-girasol-chico-kg",
+    "nombre": "Girasol Chico",
+    "categoria": "Semillas",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 1200 },
+    "stock": "alto",
+    "tags": ["semillas", "girasol"]
+  },
+  {
+    "id": "marquez-girasol-grande-kg",
+    "nombre": "Girasol Grande",
+    "categoria": "Semillas",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 1400 },
+    "stock": "alto",
+    "tags": ["semillas", "girasol"]
+  },
+  {
+    "id": "marquez-lenteja-kg",
+    "nombre": "Lenteja",
+    "categoria": "Legumbres",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 3200 },
+    "stock": "alto",
+    "tags": ["legumbres"]
+  },
+  {
+    "id": "marquez-lino-kg",
+    "nombre": "Lino",
+    "categoria": "Semillas",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 4300 },
+    "stock": "medio",
+    "tags": ["semillas", "lino"]
+  },
+  {
+    "id": "marquez-maisillo-kg",
+    "nombre": "Maisillo",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 700 },
+    "stock": "alto",
+    "tags": ["cereales", "maiz"]
+  },
+  {
+    "id": "marquez-arveja-entera-kg",
+    "nombre": "Arveja Entera",
+    "categoria": "Legumbres",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 1600 },
+    "stock": "alto",
+    "tags": ["legumbres", "arvejas"]
+  },
+  {
+    "id": "marquez-arveja-partida-kg",
+    "nombre": "Arveja Partida",
+    "categoria": "Legumbres",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 1700 },
+    "stock": "alto",
+    "tags": ["legumbres", "arvejas"]
+  },
+  {
+    "id": "dona-luisa-arveja-400g",
+    "nombre": "Arveja Doña Luisa (10 paq x 400g)",
+    "categoria": "Legumbres",
+    "proveedor": "Doña Luisa",
+    "unidad": "10 paq",
+    "precios": { "unidad": 3500 },
+    "stock": "alto",
+    "tags": ["legumbres", "arvejas", "donaluisa"]
+  },
+  {
+    "id": "marquez-chia-blanca-kg",
+    "nombre": "Chia Blanca",
+    "categoria": "Semillas",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 7500 },
+    "stock": "medio",
+    "tags": ["semillas", "chia", "superalimento"]
+  },
+  {
+    "id": "marquez-chia-negra-kg",
+    "nombre": "Chia Negra",
+    "categoria": "Semillas",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 9000 },
+    "stock": "medio",
+    "destacado": true,
+    "tags": ["semillas", "chia", "superalimento"]
+  },
+  {
+    "id": "marquez-mani-rojo-kg",
+    "nombre": "Maní Rojo",
+    "categoria": "Frutos Secos",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 2800 },
+    "stock": "alto",
+    "tags": ["frutossecos", "mani"]
+  },
+  {
+    "id": "marquez-mani-blanco-kg",
+    "nombre": "Maní Blanco",
+    "categoria": "Frutos Secos",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 2500 },
+    "stock": "alto",
+    "tags": ["frutossecos", "mani"]
+  },
+  {
+    "id": "marquez-mani-pelado-kg",
+    "nombre": "Maní Pelado",
+    "categoria": "Frutos Secos",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 2500 },
+    "stock": "alto",
+    "tags": ["frutossecos", "mani"]
+  },
+  {
+    "id": "marquez-mani-cascara-kg",
+    "nombre": "Maní con Cáscara",
+    "categoria": "Frutos Secos",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 2500 },
+    "stock": "alto",
+    "tags": ["frutossecos", "mani"]
+  },
+  {
+    "id": "marquez-maiz-amarillo-kg",
+    "nombre": "Maíz Amarillo c/ cáscara",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 550 },
+    "stock": "alto",
+    "tags": ["cereales", "maiz"]
+  },
+  {
+    "id": "marquez-maiz-amarillo-25kg",
+    "nombre": "Maíz Amarillo c/ cáscara",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "precios": { "unidad": 12500 },
+    "stock": "alto",
+    "tags": ["cereales", "maiz", "campo"]
+  },
+  {
+    "id": "marquez-maiz-amarillo-50kg",
+    "nombre": "Maíz Amarillo c/ cáscara",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 50 kg",
+    "precios": { "unidad": 25000 },
+    "stock": "alto",
+    "tags": ["cereales", "maiz", "campo"]
+  },
+  {
+    "id": "marquez-maiz-periqueño-kg",
+    "nombre": "Maíz Periqueño",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 10000 },
+    "stock": "bajo",
+    "destacado": true,
+    "tags": ["cereales", "maiz", "periqueño"]
+  },
+  {
+    "id": "marquez-maiz-blanco-kg",
+    "nombre": "Maíz Blanco c/cáscara",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 2500 },
+    "stock": "medio",
+    "tags": ["cereales", "maiz"]
+  },
+  {
+    "id": "marquez-maiz-pisingallo-kg",
+    "nombre": "Maíz Pisingallo",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 1100 },
+    "stock": "alto",
+    "tags": ["cereales", "maiz", "pisingallo"]
+  },
+  {
+    "id": "marquez-maiz-pisingallo-25kg",
+    "nombre": "Maíz Pisingallo",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "precios": { "unidad": 24500 },
+    "stock": "alto",
+    "tags": ["cereales", "maiz", "pisingallo"]
+  },
+  {
+    "id": "marquez-maiz-quebrado-kg",
+    "nombre": "Maíz Quebrado",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 750 },
+    "stock": "alto",
+    "tags": ["cereales", "maiz"]
+  },
+  {
+    "id": "marquez-maiz-quebrado-25kg",
+    "nombre": "Maíz Quebrado",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "precios": { "unidad": 17000 },
+    "stock": "alto",
+    "tags": ["cereales", "maiz"]
+  },
+  {
+    "id": "marquez-mezcla-granos-kg",
+    "nombre": "Mezcla en Granos",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 700 },
+    "stock": "alto",
+    "tags": ["cereales", "mezcla"]
+  },
+  {
+    "id": "marquez-mezcla-granos-40kg",
+    "nombre": "Mezcla en Granos",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 40 kg",
+    "precios": { "unidad": 25000 },
+    "stock": "alto",
+    "tags": ["cereales", "mezcla", "campo"]
+  },
+  {
+    "id": "marquez-mijo-kg",
+    "nombre": "Mijo",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 1200 },
+    "stock": "alto",
+    "tags": ["cereales", "mijo"]
+  },
+  {
+    "id": "guasch-mijo-kg",
+    "nombre": "Mijo Guasch",
+    "categoria": "Cereales",
+    "proveedor": "Guasch",
+    "unidad": "1 kg",
+    "precios": { "unidad": 2500 },
+    "stock": "alto",
+    "tags": ["cereales", "mijo", "guasch"]
+  },
+  {
+    "id": "marquez-sorgo-comun-kg",
+    "nombre": "Sorgo Común",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 450 },
+    "stock": "alto",
+    "tags": ["cereales", "sorgo"]
+  },
+  {
+    "id": "marquez-poroto-alubia-kg",
+    "nombre": "Poroto Alubia",
+    "categoria": "Legumbres",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 2000 },
+    "stock": "alto",
+    "tags": ["legumbres", "porotos"]
+  },
+  {
+    "id": "marquez-poroto-mung-kg",
+    "nombre": "Poroto Mung",
+    "categoria": "Legumbres",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 3200 },
+    "stock": "alto",
+    "tags": ["legumbres", "porotos"]
+  },
+  {
+    "id": "marquez-poroto-negro-kg",
+    "nombre": "Poroto Negro",
+    "categoria": "Legumbres",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 3000 },
+    "stock": "alto",
+    "tags": ["legumbres", "porotos"]
+  },
+  {
+    "id": "marquez-poroto-pallares-kg",
+    "nombre": "Poroto Pallares",
+    "categoria": "Legumbres",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 7500 },
+    "stock": "bajo",
+    "destacado": true,
+    "tags": ["legumbres", "porotos"]
+  },
+  {
+    "id": "marquez-poroto-rojo-kg",
+    "nombre": "Poroto Rojo",
+    "categoria": "Legumbres",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 3200 },
+    "stock": "alto",
+    "tags": ["legumbres", "porotos"]
+  },
+  {
+    "id": "marquez-poroto-bolita-kg",
+    "nombre": "Poroto Bolita",
+    "categoria": "Legumbres",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 3000 },
+    "stock": "alto",
+    "tags": ["legumbres", "porotos"]
+  },
+  {
+    "id": "marquez-poroto-rosado-kg",
+    "nombre": "Poroto Rosado",
+    "categoria": "Legumbres",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 3000 },
+    "stock": "alto",
+    "tags": ["legumbres", "porotos"]
+  },
+  {
+    "id": "marquez-poroto-ojo-gato-kg",
+    "nombre": "Poroto Ojo de Gato",
+    "categoria": "Legumbres",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 3200 },
+    "stock": "alto",
+    "tags": ["legumbres", "porotos"]
+  },
+  {
+    "id": "marquez-quinoa-kg",
+    "nombre": "Quinoa",
+    "categoria": "Superalimentos",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 11000 },
+    "stock": "medio",
+    "tags": ["superalimento", "quinoa"]
+  },
+  {
+    "id": "marquez-sesamo-integral-kg",
+    "nombre": "Sésamo Integral",
+    "categoria": "Superalimentos",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 5000 },
+    "stock": "alto",
+    "tags": ["superalimento", "sesamo"]
+  },
+  {
+    "id": "marquez-sal-pan",
+    "nombre": "Sal en Pan",
+    "categoria": "Suplementos",
+    "proveedor": "Marquez",
+    "unidad": "Pan",
+    "precios": { "unidad": 6000 },
+    "stock": "alto",
+    "tags": ["suplementos", "sal", "campo"]
+  },
+  {
+    "id": "marquez-sal-fina-fardo",
+    "nombre": "Sal Fina x Fardo (30 x 500g)",
+    "categoria": "Suplementos",
+    "proveedor": "Marquez",
+    "unidad": "Fardo",
+    "precios": { "unidad": 8000 },
+    "stock": "alto",
+    "tags": ["suplementos", "sal"]
+  },
+  {
+    "id": "marquez-sal-gruesa-fardo",
+    "nombre": "Sal Gruesa x Fardo (15 x 1kg)",
+    "categoria": "Suplementos",
+    "proveedor": "Marquez",
+    "unidad": "Fardo",
+    "precios": { "unidad": 8000 },
+    "stock": "alto",
+    "tags": ["suplementos", "sal"]
+  },
+  {
+    "id": "marquez-sal-yodada",
+    "nombre": "Sal Yodada",
+    "categoria": "Suplementos",
+    "proveedor": "Marquez",
+    "unidad": "Unidad",
+    "precios": { "unidad": 7000 },
+    "stock": "alto",
+    "tags": ["suplementos", "sal"]
+  },
+  {
+    "id": "marquez-soja-grano-kg",
+    "nombre": "Soja en Grano",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 700 },
+    "stock": "alto",
+    "tags": ["cereales", "soja"]
+  },
+  {
+    "id": "marquez-trigo-cáscara-kg",
+    "nombre": "Trigo c/ Cáscara",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 700 },
+    "stock": "alto",
+    "tags": ["cereales", "trigo"]
+  },
+  {
+    "id": "marquez-trigo-pelado-kg",
+    "nombre": "Trigo Pelado",
+    "categoria": "Cereales",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": { "unidad": 1300 },
+    "stock": "alto",
+    "tags": ["cereales", "trigo"]
+  },
+  {
+    "id": "molinero-avena-arrollada-kg",
+    "nombre": "Avena Arrollada Suelta",
+    "categoria": "Cereales",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 1400 },
+    "stock": "alto",
+    "tags": ["cereales", "avena", "elmolinero"]
+  },
+  {
+    "id": "molinero-avena-arrollada-fardo",
+    "nombre": "Avena Arrollada (Fardo 20 paq x 0.5kg)",
+    "categoria": "Cereales",
+    "proveedor": "El Molinero",
+    "unidad": "Fardo",
+    "precios": { "unidad": 15400 },
+    "stock": "alto",
+    "tags": ["cereales", "avena", "fardo", "elmolinero"]
+  },
+  {
+    "id": "molinero-avena-arrollada-paq",
+    "nombre": "Avena Arrollada (paq x 0.5kg)",
+    "categoria": "Cereales",
+    "proveedor": "El Molinero",
+    "unidad": "0.5 kg",
+    "precios": { "unidad": 800 },
+    "stock": "alto",
+    "tags": ["cereales", "avena", "elmolinero"]
+  },
+  {
+    "id": "molinero-frangollo-blanco-fardo",
+    "nombre": "Frangollo Blanco (Fardo 10 paq x 1kg)",
+    "categoria": "Granja",
+    "proveedor": "El Molinero",
+    "unidad": "Fardo",
+    "precios": { "unidad": 15000 },
+    "stock": "alto",
+    "tags": ["granja", "frangollo", "elmolinero"]
+  },
+  {
+    "id": "molinero-frangollo-blanco-paq",
+    "nombre": "Frangollo Blanco (paq x 1kg)",
+    "categoria": "Granja",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 1700 },
+    "stock": "alto",
+    "tags": ["granja", "frangollo", "elmolinero"]
+  },
+  {
+    "id": "molinero-garbanzo-suelto",
+    "nombre": "Garbanzo Suelto",
+    "categoria": "Legumbres",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 3000 },
+    "stock": "medio",
+    "tags": ["legumbres", "garbanzo", "elmolinero"]
+  },
+  {
+    "id": "molinero-garbanzo-fardo",
+    "nombre": "Garbanzo (Fardo 20 paq x 0.5kg)",
+    "categoria": "Legumbres",
+    "proveedor": "El Molinero",
+    "unidad": "Fardo",
+    "precios": { "unidad": 33000 },
+    "stock": "alto",
+    "tags": ["legumbres", "garbanzo", "elmolinero"]
+  },
+  {
+    "id": "molinero-harina-maiz-fina-10kg",
+    "nombre": "Harina de Maíz Fina",
+    "categoria": "Cereales",
+    "proveedor": "El Molinero",
+    "unidad": "Bolsa 10 kg",
+    "precios": { "unidad": 6500 },
+    "stock": "alto",
+    "tags": ["cereales", "maiz", "harina", "elmolinero"]
+  },
+  {
+    "id": "molinero-harina-maiz-gruesa-10kg",
+    "nombre": "Harina de Maíz Gruesa",
+    "categoria": "Cereales",
+    "proveedor": "El Molinero",
+    "unidad": "Bolsa 10 kg",
+    "precios": { "unidad": 6500 },
+    "stock": "alto",
+    "tags": ["cereales", "maiz", "harina", "elmolinero"]
+  },
+  {
+    "id": "molinero-lenteja-suelta",
+    "nombre": "Lenteja Suelta",
+    "categoria": "Legumbres",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 3200 },
+    "stock": "alto",
+    "tags": ["legumbres", "lentejas", "elmolinero"]
+  },
+  {
+    "id": "molinero-lenteja-fardo-1kg",
+    "nombre": "Lenteja (Fardo 10 paq x 1kg)",
+    "categoria": "Legumbres",
+    "proveedor": "El Molinero",
+    "unidad": "Fardo",
+    "precios": { "unidad": 35000 },
+    "stock": "alto",
+    "tags": ["legumbres", "lentejas", "elmolinero"]
+  },
+  {
+    "id": "molinero-maiz-pelado-locrillo-fardo",
+    "nombre": "Maíz Pelado Locrillo (Fardo 10 paq x 1kg)",
+    "categoria": "Cereales",
+    "proveedor": "El Molinero",
+    "unidad": "Fardo",
+    "precios": { "unidad": 15000 },
+    "stock": "alto",
+    "destacado": true,
+    "tags": ["cereales", "maiz", "locro", "elmolinero"]
+  },
+  {
+    "id": "molinero-maiz-pisingallo-25kg",
+    "nombre": "Maíz Pisingallo",
+    "categoria": "Cereales",
+    "proveedor": "El Molinero",
+    "unidad": "Bolsa 25 kg",
+    "precios": { "unidad": 24500 },
+    "stock": "alto",
+    "tags": ["cereales", "maiz", "pisingallo", "elmolinero"]
+  },
+  {
+    "id": "molinero-poroto-alubia-suelto",
+    "nombre": "Poroto Alubia Suelto",
+    "categoria": "Legumbres",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 2000 },
+    "stock": "alto",
+    "tags": ["legumbres", "porotos", "elmolinero"]
+  },
+  {
+    "id": "molinero-poroto-pallares-suelto",
+    "nombre": "Poroto Pallares Suelto",
+    "categoria": "Legumbres",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 7500 },
+    "stock": "medio",
+    "destacado": true,
+    "tags": ["legumbres", "porotos", "pallares", "elmolinero"]
+  },
+  {
+    "id": "molinero-poroto-pallares-fardo",
+    "nombre": "Poroto Pallares (Fardo 20 paq x 0.5kg)",
+    "categoria": "Legumbres",
+    "proveedor": "El Molinero",
+    "unidad": "Fardo",
+    "precios": { "unidad": 83000 },
+    "stock": "medio",
+    "tags": ["legumbres", "porotos", "pallares", "elmolinero"]
+  },
+  {
+    "id": "molinero-trigo-pelado-suelto",
+    "nombre": "Trigo Pelado Suelto",
+    "categoria": "Cereales",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 1300 },
+    "stock": "alto",
+    "tags": ["cereales", "trigo", "elmolinero"]
+  },
+  {
+    "id": "molinero-trigo-pelado-fardo",
+    "nombre": "Trigo Pelado (Fardo 10 paq x 1kg)",
+    "categoria": "Cereales",
+    "proveedor": "El Molinero",
+    "unidad": "Fardo",
+    "precios": { "unidad": 14500 },
+    "stock": "alto",
+    "tags": ["cereales", "trigo", "elmolinero"]
+  },
+  {
+    "id": "molinero-aritos-frutados-2-5kg",
+    "nombre": "Aritos Frutados",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "Bolsa 2.5 kg",
+    "precios": { "unidad": 12300 },
+    "stock": "alto",
+    "tags": ["cereales", "desayuno", "aritos", "consumohumano"]
+  },
+  {
+    "id": "molinero-aritos-avena-miel-2-5kg",
+    "nombre": "Aritos Avena y Miel",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "Bolsa 2.5 kg",
+    "precios": { "unidad": 13700 },
+    "stock": "alto",
+    "tags": ["cereales", "avena", "miel", "consumohumano"]
+  },
+  {
+    "id": "molinero-copitas-chocolate-2-5kg",
+    "nombre": "Copitas de Chocolate",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "Bolsa 2.5 kg",
+    "precios": { "unidad": 14400 },
+    "stock": "alto",
+    "tags": ["cereales", "chocolate", "consumohumano"]
+  },
+  {
+    "id": "molinero-copo-maiz-azucarado-2-5kg",
+    "nombre": "Copo de Maíz Azucarado",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "Bolsa 2.5 kg",
+    "precios": { "unidad": 11300 },
+    "stock": "alto",
+    "destacado": true,
+    "tags": ["cereales", "maiz", "desayuno", "consumohumano"]
+  },
+  {
+    "id": "molinero-copo-maiz-natural-2-5kg",
+    "nombre": "Copo de Maíz s/ Azúcar",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "Bolsa 2.5 kg",
+    "precios": { "unidad": 11700 },
+    "stock": "alto",
+    "tags": ["cereales", "maiz", "consumohumano"]
+  },
+  {
+    "id": "molinero-ositos-avena-miel-2-5kg",
+    "nombre": "Ositos de Avena y Miel",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "Bolsa 2.5 kg",
+    "precios": { "unidad": 12200 },
+    "stock": "medio",
+    "tags": ["cereales", "avena", "consumohumano"]
+  },
+  {
+    "id": "molinero-ositos-frutilla-2-5kg",
+    "nombre": "Ositos de Frutilla",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "Bolsa 2.5 kg",
+    "precios": { "unidad": 13500 },
+    "stock": "medio",
+    "tags": ["cereales", "frutilla", "consumohumano"]
+  },
+  {
+    "id": "molinero-redonditos-chocolate-2-5kg",
+    "nombre": "Redonditos de Chocolate",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "Bolsa 2.5 kg",
+    "precios": { "unidad": 13900 },
+    "stock": "alto",
+    "tags": ["cereales", "chocolate", "consumohumano"]
+  },
+  {
+    "id": "molinero-almohaditas-limon-2-5kg",
+    "nombre": "Almohaditas de Limón",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "Bolsa 2.5 kg",
+    "precios": { "unidad": 17100 },
+    "stock": "medio",
+    "tags": ["cereales", "almohaditas", "consumohumano"]
+  },
+  {
+    "id": "molinero-almohaditas-frutilla-2-5kg",
+    "nombre": "Almohaditas de Frutilla",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "Bolsa 2.5 kg",
+    "precios": { "unidad": 17100 },
+    "stock": "medio",
+    "tags": ["cereales", "almohaditas", "consumohumano"]
+  },
+  {
+    "id": "molinero-almohaditas-chocolate-2-5kg",
+    "nombre": "Almohaditas de Chocolate",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "Bolsa 2.5 kg",
+    "precios": { "unidad": 17800 },
+    "stock": "medio",
+    "tags": ["cereales", "almohaditas", "chocolate", "consumohumano"]
+  },
+  {
+    "id": "molinero-granola-mix-1kg",
+    "nombre": "Granola Cereal Mix",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 7700 },
+    "stock": "alto",
+    "tags": ["granola", "cereales", "consumohumano"]
+  },
+  {
+    "id": "molinero-granola-semillas-1kg",
+    "nombre": "Granola 5 Semillas",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 8900 },
+    "stock": "alto",
+    "tags": ["granola", "semillas", "consumohumano"]
+  },
+  {
+    "id": "molinero-mani-chocolate-kg",
+    "nombre": "Maní con Chocolate",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 8800 },
+    "stock": "alto",
+    "tags": ["mani", "chocolate", "confites", "consumohumano"]
+  },
+  {
+    "id": "molinero-mani-saborizado-kg",
+    "nombre": "Maní Saborizado",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 4200 },
+    "stock": "alto",
+    "tags": ["mani", "snack", "consumohumano"]
+  },
+  {
+    "id": "molinero-mani-salado-piel-kg",
+    "nombre": "Maní Salado con Piel",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 3400 },
+    "stock": "alto",
+    "tags": ["mani", "salado", "snack", "consumohumano"]
+  },
+  {
+    "id": "molinero-mani-salado-sin-piel-kg",
+    "nombre": "Maní Salado sin Piel",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 2800 },
+    "stock": "alto",
+    "tags": ["mani", "salado", "snack", "consumohumano"]
+  },
+  {
+    "id": "molinero-confites-chocolate-kg",
+    "nombre": "Confites de Chocolate",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 11800 },
+    "stock": "medio",
+    "tags": ["confites", "chocolate", "consumohumano"]
+  },
+  {
+    "id": "molinero-pasas-uva-con-semilla-kg",
+    "nombre": "Pasas Uva con Semilla",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 6000 },
+    "stock": "alto",
+    "tags": ["pasas", "frutossecos", "consumohumano"]
+  },
+  {
+    "id": "molinero-pasas-uva-sin-semilla-kg",
+    "nombre": "Pasas Uva sin Semilla",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 8000 },
+    "stock": "alto",
+    "tags": ["pasas", "frutossecos", "consumohumano"]
+  },
+  {
+    "id": "molinero-pasas-ciruela-con-carozo-kg",
+    "nombre": "Pasas Ciruela con Carozo",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 11000 },
+    "stock": "medio",
+    "tags": ["pasas", "frutossecos", "consumohumano"]
+  },
+  {
+    "id": "molinero-pasas-ciruela-sin-carozo-kg",
+    "nombre": "Pasas Ciruela sin Carozo",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 14000 },
+    "stock": "medio",
+    "tags": ["pasas", "frutossecos", "consumohumano"]
+  },
+  {
+    "id": "molinero-pelones-kg",
+    "nombre": "Pelones",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 11000 },
+    "stock": "medio",
+    "tags": ["frutossecos", "consumohumano"]
+  },
+  {
+    "id": "molinero-bananas-chips-kg",
+    "nombre": "Bananas Chips",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 18000 },
+    "stock": "medio",
+    "tags": ["frutossecos", "consumohumano", "banana"]
+  },
+  {
+    "id": "molinero-nueces-cáscara-kg",
+    "nombre": "Nueces c/Cáscara",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 8000 },
+    "stock": "alto",
+    "tags": ["frutossecos", "nueces", "consumohumano"]
+  },
+  {
+    "id": "molinero-nueces-pelada-kg",
+    "nombre": "Nueces Pelada",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 22000 },
+    "stock": "medio",
+    "tags": ["frutossecos", "nueces", "consumohumano"]
+  },
+  {
+    "id": "molinero-almendras-kg",
+    "nombre": "Almendras",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 30000 },
+    "stock": "medio",
+    "tags": ["frutossecos", "almendras", "consumohumano"]
+  },
+  {
+    "id": "molinero-castañas-kg",
+    "nombre": "Castañas",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 26000 },
+    "stock": "medio",
+    "tags": ["frutossecos", "castañas", "consumohumano"]
+  },
+  {
+    "id": "molinero-mix-deportivo-kg",
+    "nombre": "Mix Frutos Secos Deportivo",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 11000 },
+    "stock": "alto",
+    "tags": ["frutossecos", "mix", "consumohumano"]
+  },
+  {
+    "id": "molinero-mix-premium-kg",
+    "nombre": "Mix Frutos Secos Premium",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 20000 },
+    "stock": "medio",
+    "tags": ["frutossecos", "mix", "consumohumano"]
+  },
+  {
+    "id": "molinero-mix-patagonico-kg",
+    "nombre": "Mix Frutos Secos Patagónico",
+    "categoria": "Consumo Humano",
+    "proveedor": "El Molinero",
+    "unidad": "1 kg",
+    "precios": { "unidad": 30000 },
+    "stock": "medio",
+    "destacado": true,
+    "tags": ["frutossecos", "mix", "consumohumano"]
   }
 ]
