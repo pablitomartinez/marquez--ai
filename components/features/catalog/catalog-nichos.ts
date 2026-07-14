@@ -1,4 +1,4 @@
-import type { Producto } from "@/types/product";
+  import type { Producto } from "@/types/product";
 
 export type NichoSlug =
   | "veterinaria"
@@ -20,32 +20,38 @@ export const NICHOS: NichoOption[] = [
     slug: "veterinaria",
     label: "Veterinarias",
     aliases: ["veterinaria", "veterinarias"],
-    tags: ["veterinaria"],
+    tags: ["veterinaria", "pipeta", "farmacia", "salud", "medicamento"], // Añadimos tags de farmacia
   },
   {
     slug: "petshop",
     label: "Pet Shops",
     aliases: ["petshop", "pet shop", "pet shops", "mascotas", "pet"],
-    tags: ["petshop", "mascotas"],
+    tags: ["petshop", "mascotas", "perros", "gatos", "estetica", "shampoo", "accesorios"],
   },
   {
     slug: "granja",
     label: "Granja",
     aliases: ["granja", "granja rural", "campo"],
-    tags: ["granja"],
+    tags: ["granja", "aves", "cerdos", "bovinos", "equinos", "balanceado"],
   },
   {
     slug: "ferreteria",
     label: "Ferreteria",
     aliases: ["ferreteria", "ferreteria rural"],
-    tags: ["ferreteria"],
+    tags: ["ferreteria", "veneno", "insecticida", "ratas", "alambre"], // Aquí incluimos lo que te dijo tu amigo
   },
   {
-    slug: "almacen",
-    label: "Almacen",
-    aliases: ["almacen", "despensa", "kiosco"],
-    tags: ["almacen"],
+    "slug": "almacen",
+    "label": "Almacen",
+    "aliases": ["almacen", "despensa", "kiosco"],
+    "tags": ["almacen", "consumohumano", "cereales", "frutossecos", "legumbres", "semillas"],
   },
+  {
+    "slug": "forrajeria",
+    "label": "Forrajeria",
+    "aliases": ["forrajeria", "forraje", "forrajerias"],
+    "tags": ["forrajeria", "campo", "forrajes", "maiz", "avena"],
+  }
 ];
 
 const NICHOS_SOPORTADOS: NichoOption[] = [
