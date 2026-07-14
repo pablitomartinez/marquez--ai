@@ -3,7 +3,6 @@
     "id": "purina-dogui-adulto-21kg",
     "nombre": "Dogui Adulto x 21 Kg",
     "categoria": "Mascotas",
-    "descripcion": "Alimento completo para perros adultos.",
     "proveedor": "Purina",
     "unidad": "Bolsa 21 kg",
     "precios": {
@@ -13,7 +12,7 @@
     },
     "stock": "alto",
     "destacado": true,
-    "tags": ["mascotas", "perros", "forrajeria", "petshop"]
+    "tags": ["mascotas", "perros", "purina", "petshop", "forrajeria"]
   },
   {
     "id": "purina-dogui-cachorro-21kg",
@@ -27,7 +26,7 @@
       "masDe10": 39498
     },
     "stock": "medio",
-    "tags": ["mascotas", "perros", "cachorros", "petshop"]
+    "tags": ["mascotas", "perros", "cachorros", "purina", "petshop"]
   },
   {
     "id": "purina-dogchow-adulto-peq-20kg",
@@ -41,6 +40,1095 @@
       "masDe10": 55163.20
     },
     "stock": "consultar",
-    "tags": ["mascotas", "perros", "premium", "veterinaria"]
+    "tags": ["mascotas", "perros", "purina", "petshop", "veterinaria"]
+  },
+  {
+    "id": "purina-dogchow-adulto-med-20kg",
+    "nombre": "Dog Chow Adulto Raza Med. Triple P. x 20 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Purina",
+    "unidad": "Bolsa 20 kg",
+    "precios": {
+      "unidad": 56770,
+      "masDe2": 54499.20,
+      "masDe10": 52228.40
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "perros", "purina", "petshop", "veterinaria"]
+  },
+  {
+    "id": "purina-dogchow-cachorro-peq-21kg",
+    "nombre": "Dog Chow Cachorro R Pequeño x 21 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Purina",
+    "unidad": "Bolsa 21 kg",
+    "precios": {
+      "unidad": 67920,
+      "masDe2": 65203.20,
+      "masDe10": 62486.40
+    },
+    "stock": "consultar",
+    "tags": ["mascotas", "perros", "cachorros", "purina", "petshop"]
+  },
+  {
+    "id": "purina-dogchow-cachorro-med-21kg",
+    "nombre": "Dog Chow Cachorro Raza Med/Grande x 21 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Purina",
+    "unidad": "Bolsa 21 kg",
+    "precios": {
+      "unidad": 64890,
+      "masDe2": 62294.40,
+      "masDe10": 59698.80
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "perros", "cachorros", "purina", "petshop"]
+  },
+  {
+    "id": "purina-dogchow-mayores-7-21kg",
+    "nombre": "Dog Chow Mayores de 7 años x 21 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Purina",
+    "unidad": "Bolsa 21 kg",
+    "precios": {
+      "unidad": 65560,
+      "masDe2": 62937.60,
+      "masDe10": 60315.20
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "perros", "senior", "purina", "petshop"]
+  },
+  {
+    "id": "purina-bonelo-adulto-20kg",
+    "nombre": "Bonelo Perro Adulto todos/tamaños x 20 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Purina",
+    "unidad": "Bolsa 20 kg",
+    "precios": {
+      "unidad": 53120,
+      "masDe2": 50995.20,
+      "masDe10": 48870.40
+    },
+    "stock": "alto",
+    "tags": ["mascotas", "perros", "purina", "forrajeria", "petshop"]
+  },
+  {
+    "id": "purina-bonelo-gato-adulto-15kg",
+    "nombre": "Bonelo Gato Adulto x 15 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Purina",
+    "unidad": "Bolsa 15 kg",
+    "precios": {
+      "unidad": 61870,
+      "masDe2": 59395.20,
+      "masDe10": 56920.40
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "gatos", "purina", "forrajeria", "petshop"]
+  },
+  {
+    "id": "purina-bonzo-adultos-21kg",
+    "nombre": "Bonzo Adultos x 21 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Purina",
+    "unidad": "Bolsa 21 kg",
+    "precios": {
+      "unidad": 37810,
+      "masDe2": 36297.60,
+      "masDe10": 34785.20
+    },
+    "stock": "alto",
+    "destacado": true,
+    "tags": ["mascotas", "perros", "purina", "forrajeria"]
+  },
+  {
+    "id": "purina-gati-pescado-salmon-15kg",
+    "nombre": "Gati Pescado y Salmón x 15 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Purina",
+    "unidad": "Bolsa 15 kg",
+    "precios": {
+      "unidad": 46400,
+      "masDe2": 44080,
+      "masDe10": 40368
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "gatos", "purina", "petshop", "forrajeria"]
+  },
+  {
+    "id": "purina-gati-carne-pollo-15kg",
+    "nombre": "Gati Carne y Pollo x 15 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Purina",
+    "unidad": "Bolsa 15 kg",
+    "precios": {
+      "unidad": 46400,
+      "masDe2": 44080,
+      "masDe10": 40368
+    },
+    "stock": "alto",
+    "tags": ["mascotas", "gatos", "purina", "petshop", "forrajeria"]
+  },
+  {
+    "id": "purina-catchow-gatitos-15kg",
+    "nombre": "Cat Chow Gatitos x 15 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Purina",
+    "unidad": "Bolsa 15 kg",
+    "precios": {
+      "unidad": 87690,
+      "masDe2": 84182.40,
+      "masDe10": 80674.80
+    },
+    "stock": "consultar",
+    "tags": ["mascotas", "gatos", "cachorros", "purina", "petshop"]
+  },
+  {
+    "id": "purina-catchow-adulto-pescado-15kg",
+    "nombre": "Cat Chow Adultos Pescado y Pollo x 15 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Purina",
+    "unidad": "Bolsa 15 kg",
+    "precios": {
+      "unidad": 80160,
+      "masDe2": 76953.60,
+      "masDe10": 73747.20
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "gatos", "purina", "petshop"]
+  },
+  {
+    "id": "purina-catchow-adulto-carne-15kg",
+    "nombre": "Cat Chow Adultos Carne y Pollo x 15 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Purina",
+    "unidad": "Bolsa 15 kg",
+    "precios": {
+      "unidad": 80160,
+      "masDe2": 76953.60,
+      "masDe10": 73747.20
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "gatos", "purina", "petshop"]
+  },
+  {
+    "id": "purina-catchow-esterilizados-15kg",
+    "nombre": "Cat Chow Esterilizados x 15 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Purina",
+    "unidad": "Bolsa 15 kg",
+    "precios": {
+      "unidad": 90620,
+      "masDe2": 86995.20,
+      "masDe10": 83370.40
+    },
+    "stock": "consultar",
+    "tags": ["mascotas", "gatos", "purina", "petshop", "veterinaria"]
+  },
+  {
+    "id": "purina-felix-gatitos-15kg",
+    "nombre": "Felix Gatitos x 15 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Purina",
+    "unidad": "Bolsa 15 kg",
+    "precios": {
+      "unidad": 80250,
+      "masDe2": 77040,
+      "masDe10": 73830
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "gatos", "cachorros", "purina", "petshop"]
+  },
+  {
+    "id": "purina-felix-adultos-15kg",
+    "nombre": "Felix Adultos x 15 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Purina",
+    "unidad": "Bolsa 15 kg",
+    "precios": {
+      "unidad": 72950,
+      "masDe2": 70032,
+      "masDe10": 67114
+    },
+    "stock": "alto",
+    "tags": ["mascotas", "gatos", "purina", "petshop"]
+  },
+  {
+    "id": "gepsa-cari-amici-premium-adulto-mix-22kg",
+    "nombre": "Cari Amici PREMIUM Adulto Mix x 20+2 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 22 kg",
+    "precios": {
+      "unidad": 27700,
+      "masDe2": 26315,
+      "masDe10": 24930
+    },
+    "stock": "alto",
+    "destacado": true,
+    "tags": ["mascotas", "perros", "premium", "gepsa", "petshop"]
+  },
+  {
+    "id": "gepsa-cari-amici-premium-adulto-rp-22kg",
+    "nombre": "Cari Amici PREMIUM Adulto R.P x 20+2 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 22 kg",
+    "precios": {
+      "unidad": 28200,
+      "masDe2": 26790,
+      "masDe10": 25380
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "perros", "raza pequeña", "premium", "gepsa", "petshop"]
+  },
+  {
+    "id": "gepsa-cari-amici-premium-cachorro-rp-16kg",
+    "nombre": "Cari Amici PREMIUM Cach. R.Peq 15+1 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 16 kg",
+    "precios": {
+      "unidad": 23300,
+      "masDe2": 22135,
+      "masDe10": 20970
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "perros", "cachorros", "raza pequeña", "premium", "gepsa"]
+  },
+  {
+    "id": "gepsa-cari-amici-premium-cachorro-rm-22kg",
+    "nombre": "Cari Amici PREMIUM Cach. R.Med 20+2 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 22 kg",
+    "precios": {
+      "unidad": 29200,
+      "masDe2": 27740,
+      "masDe10": 26280
+    },
+    "stock": "consultar",
+    "tags": ["mascotas", "perros", "cachorros", "raza mediana", "premium", "gepsa"]
+  },
+  {
+    "id": "gepsa-cari-amici-premium-gato-16kg",
+    "nombre": "Cari Amici PREMIUM Gato x 15+1 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 16 kg",
+    "precios": {
+      "unidad": 32500,
+      "masDe2": 30875,
+      "masDe10": 29250
+    },
+    "stock": "alto",
+    "tags": ["mascotas", "gatos", "premium", "gepsa", "petshop"]
+  },
+  {
+    "id": "gepsa-cari-amici-premium-gatito-8kg",
+    "nombre": "Cari Amici PREMIUM Gatito x 8 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 8 kg",
+    "precios": {
+      "unidad": 19600,
+      "masDe2": 18620,
+      "masDe10": 17640
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "gatos", "cachorros", "premium", "gepsa"]
+  },
+  {
+    "id": "gepsa-cari-amici-cachorro-22kg",
+    "nombre": "Cari Amici CACHORRO x 20+2 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 22 kg",
+    "precios": {
+      "unidad": 27600,
+      "masDe2": 26220,
+      "masDe10": 24840
+    },
+    "stock": "alto",
+    "tags": ["mascotas", "perros", "cachorros", "gepsa", "forrajeria"]
+  },
+  {
+    "id": "gepsa-odwalla-cachorro-22kg",
+    "nombre": "Odwalla Cachorro x 20+2 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 22 kg",
+    "precios": {
+      "unidad": 37600,
+      "masDe2": 35720,
+      "masDe10": 33840
+    },
+    "stock": "medio",
+    "destacado": true,
+    "tags": ["mascotas", "perros", "cachorros", "odwalla", "gepsa"]
+  },
+  {
+    "id": "gepsa-odwalla-adulto-22kg",
+    "nombre": "Odwalla Adulto x 20+2 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 22 kg",
+    "precios": {
+      "unidad": 35500,
+      "masDe2": 33725,
+      "masDe10": 31950
+    },
+    "stock": "alto",
+    "tags": ["mascotas", "perros", "odwalla", "gepsa"]
+  },
+  {
+    "id": "gepsa-odwalla-adulto-25kg",
+    "nombre": "Odwalla Adulto x 22+3 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 39000,
+      "masDe2": 37050,
+      "masDe10": 35100
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "perros", "odwalla", "gepsa"]
+  },
+  {
+    "id": "gepsa-zimpi-perro-carne-15kg",
+    "nombre": "Zimpi Perro Carne x 15 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 15 kg",
+    "precios": {
+      "unidad": 12400,
+      "masDe2": 11780,
+      "masDe10": 11160
+    },
+    "stock": "alto",
+    "tags": ["mascotas", "perros", "zimpi", "gepsa", "economico"]
+  },
+  {
+    "id": "gepsa-zimpi-perro-carne-25kg",
+    "nombre": "Zimpi Perro Carne x 25 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 19200,
+      "masDe2": 18240,
+      "masDe10": 17280
+    },
+    "stock": "alto",
+    "tags": ["mascotas", "perros", "zimpi", "gepsa", "economico"]
+  },
+  {
+    "id": "gepsa-zimpi-gato-15kg",
+    "nombre": "Zimpi Gato x 15 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 15 kg",
+    "precios": {
+      "unidad": 19800,
+      "masDe2": 18810,
+      "masDe10": 17820
+    },
+    "stock": "alto",
+    "tags": ["mascotas", "gatos", "zimpi", "gepsa", "economico"]
+  },
+  {
+    "id": "gepsa-compinche-perro-20kg",
+    "nombre": "Compinche PERRO x 20 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 20 kg",
+    "precios": {
+      "unidad": 16400,
+      "masDe2": 15580,
+      "masDe10": 14760
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "perros", "compinche", "gepsa"]
+  },
+  {
+    "id": "gepsa-compinche-perro-25kg",
+    "nombre": "Compinche PERRO x 25 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 19800,
+      "masDe2": 18810,
+      "masDe10": 17820
+    },
+    "stock": "alto",
+    "tags": ["mascotas", "perros", "compinche", "gepsa"]
+  },
+  {
+    "id": "gepsa-compinche-gato-pescado-10kg",
+    "nombre": "Compinche GATO Pescado x 10 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 10 kg",
+    "precios": {
+      "unidad": 14900,
+      "masDe2": 14155,
+      "masDe10": 13410
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "gatos", "compinche", "gepsa"]
+  },
+  {
+    "id": "gepsa-compinche-gato-pescado-20kg",
+    "nombre": "Compinche GATO Pescado x 20 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 20 kg",
+    "precios": {
+      "unidad": 26800,
+      "masDe2": 25460,
+      "masDe10": 24120
+    },
+    "stock": "alto",
+    "tags": ["mascotas", "gatos", "compinche", "gepsa"]
+  },
+  {
+    "id": "gepsa-magnificos-perro-carne-18kg",
+    "nombre": "Magnificos Perro Carne x 18 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 18 kg",
+    "precios": {
+      "unidad": 18300,
+      "masDe2": 17385,
+      "masDe10": 16470
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "perros", "magnificos", "gepsa"]
+  },
+  {
+    "id": "gepsa-magnificos-gato-pescado-8kg",
+    "nombre": "Magnificos Gato Pescado x 8 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 8 kg",
+    "precios": {
+      "unidad": 14600,
+      "masDe2": 13870,
+      "masDe10": 13140
+    },
+    "stock": "consultar",
+    "tags": ["mascotas", "gatos", "magnificos", "gepsa"]
+  },
+  {
+    "id": "gepsa-ganacan-cachorro-22kg",
+    "nombre": "Ganacan Cachorro x 22 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 22 kg",
+    "precios": {
+      "unidad": 23800,
+      "masDe2": 22610,
+      "masDe10": 21420
+    },
+    "stock": "alto",
+    "tags": ["mascotas", "perros", "cachorros", "ganacan", "gepsa"]
+  },
+  {
+    "id": "gepsa-ganacan-carne-22kg",
+    "nombre": "Ganacan Carne x 22 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 22 kg",
+    "precios": {
+      "unidad": 22400,
+      "masDe2": 21280,
+      "masDe10": 20160
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "perros", "ganacan", "gepsa"]
+  },
+  {
+    "id": "gepsa-ganacan-mix-25kg",
+    "nombre": "Ganacan Mix x 22+3 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 22400,
+      "masDe2": 21280,
+      "masDe10": 20160
+    },
+    "stock": "alto",
+    "tags": ["mascotas", "perros", "ganacan", "gepsa"]
+  },
+  {
+    "id": "gepsa-fishy-pescado-15kg",
+    "nombre": "Fishy Pescado x 15 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 15 kg",
+    "precios": {
+      "unidad": 19800,
+      "masDe2": 18810,
+      "masDe10": 17820
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "gatos", "fishy", "gepsa"]
+  },
+  {
+    "id": "gepsa-fishy-pescado-8kg",
+    "nombre": "Fishy Pescado x 8 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 8 kg",
+    "precios": {
+      "unidad": 12300,
+      "masDe2": 11685,
+      "masDe10": 11070
+    },
+    "stock": "alto",
+    "tags": ["mascotas", "gatos", "fishy", "gepsa"]
+  },
+  {
+    "id": "gepsa-9lives-gatito-leche-8kg",
+    "nombre": "9 Lives Delicias Gatito C. y Leche x 8 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 8 kg",
+    "precios": {
+      "unidad": 28300,
+      "masDe2": 26885,
+      "masDe10": 25470
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "gatos", "cachorros", "9lives", "gepsa"]
+  },
+  {
+    "id": "gepsa-9lives-salmon-atun-15kg",
+    "nombre": "9 Lives Delicias Salmon y Atún x 15 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 15 kg",
+    "precios": {
+      "unidad": 47600,
+      "masDe2": 45220,
+      "masDe10": 42840
+    },
+    "stock": "consultar",
+    "tags": ["mascotas", "gatos", "9lives", "gepsa"]
+  },
+  {
+    "id": "gepsa-9lives-carne-15kg",
+    "nombre": "9 Lives Delicias Carne x 15 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 15 kg",
+    "precios": {
+      "unidad": 47600,
+      "masDe2": 45220,
+      "masDe10": 42840
+    },
+    "stock": "alto",
+    "tags": ["mascotas", "gatos", "9lives", "gepsa"]
+  },
+  {
+    "id": "gepsa-9lives-esterilizados-15kg",
+    "nombre": "9 Lives Delicias Esterilizados x 15 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 15 kg",
+    "precios": {
+      "unidad": 47600,
+      "masDe2": 45220,
+      "masDe10": 42840
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "gatos", "esterilizados", "9lives", "gepsa"]
+  },
+  {
+    "id": "gepsa-9lives-salmon-carne-esteril-8kg",
+    "nombre": "9 Lives Salmon, Carne y Esteril x 8 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 8 kg",
+    "precios": {
+      "unidad": 26800,
+      "masDe2": 25460,
+      "masDe10": 24120
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "gatos", "esterilizados", "9lives", "gepsa"]
+  },
+  {
+    "id": "gepsa-exact-criadores-adulto-20kg",
+    "nombre": "Exact Criadores Perro Adulto x 20 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 20 kg",
+    "precios": {
+      "unidad": 24200,
+      "masDe2": 22990,
+      "masDe10": 21780
+    },
+    "stock": "alto",
+    "tags": ["mascotas", "perros", "exact", "gepsa"]
+  },
+  {
+    "id": "gepsa-exact-criadores-cachorro-15kg",
+    "nombre": "Exact Criadores Perro Cachorro x 15 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 15 kg",
+    "precios": {
+      "unidad": 18900,
+      "masDe2": 17955,
+      "masDe10": 17010
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "perros", "cachorros", "exact", "gepsa"]
+  },
+  {
+    "id": "gepsa-exact-premium-adulto-22kg",
+    "nombre": "Exact Premium Perro Adulto x 20+2 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 22 kg",
+    "precios": {
+      "unidad": 31300,
+      "masDe2": 29735,
+      "masDe10": 28170
+    },
+    "stock": "alto",
+    "destacado": true,
+    "tags": ["mascotas", "perros", "premium", "exact", "gepsa", "petshop"]
+  },
+  {
+    "id": "gepsa-exact-premium-cachorro-15kg",
+    "nombre": "Exact Premium Perro Cachorro x 15 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 15 kg",
+    "precios": {
+      "unidad": 26050,
+      "masDe2": 24747.50,
+      "masDe10": 23445
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "perros", "cachorros", "premium", "exact", "gepsa", "petshop"]
+  },
+  {
+    "id": "gepsa-exact-premium-gato-adulto-8kg",
+    "nombre": "Exact Premium Gato Adulto x 8 Kg",
+    "categoria": "Mascotas",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 8 kg",
+    "precios": {
+      "unidad": 25600,
+      "masDe2": 24320,
+      "masDe10": 23040
+    },
+    "stock": "alto",
+    "tags": ["mascotas", "gatos", "premium", "exact", "gepsa", "petshop"]
+  },
+  {
+    "id": "marquez-pollas-crecimiento-25kg",
+    "nombre": "Pollas Crecimiento",
+    "categoria": "Granja",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 24050
+    },
+    "stock": "alto",
+    "tags": ["granja", "aves", "gallinas", "balanceado", "marquez"]
+  },
+  {
+    "id": "marquez-ponedoras-piso-25kg",
+    "nombre": "Ponedoras Piso",
+    "categoria": "Granja",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 22200
+    },
+    "stock": "alto",
+    "destacado": true,
+    "tags": ["granja", "aves", "gallinas", "ponedoras", "balanceado"]
+  },
+  {
+    "id": "marquez-parrillero-mercado-25kg",
+    "nombre": "Parrillero Mercado",
+    "categoria": "Granja",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 21800
+    },
+    "stock": "medio",
+    "tags": ["granja", "aves", "pollos", "parrillero", "balanceado"]
+  },
+  {
+    "id": "marquez-bb-casero-25kg",
+    "nombre": "B.B. Casero",
+    "categoria": "Granja",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 19850
+    },
+    "stock": "medio",
+    "tags": ["granja", "aves", "pollitos", "iniciador", "balanceado"]
+  },
+  {
+    "id": "marquez-recria-casero-25kg",
+    "nombre": "Recría Casero",
+    "categoria": "Granja",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 17950
+    },
+    "stock": "alto",
+    "tags": ["granja", "aves", "recria", "balanceado"]
+  },
+  {
+    "id": "marquez-ponedoras-caseras-25kg",
+    "nombre": "Ponedoras Caseras",
+    "categoria": "Granja",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 18650
+    },
+    "stock": "alto",
+    "tags": ["granja", "aves", "gallinas", "ponedoras", "balanceado"]
+  },
+  {
+    "id": "marquez-engorde-casero-25kg",
+    "nombre": "Engorde Casero",
+    "categoria": "Granja",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 17550
+    },
+    "stock": "alto",
+    "tags": ["granja", "aves", "pollos", "engorde", "balanceado"]
+  },
+  {
+    "id": "marquez-conejo-casero-25kg",
+    "nombre": "Conejo Casero",
+    "categoria": "Granja",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 15500
+    },
+    "stock": "medio",
+    "tags": ["granja", "conejos", "cunicultura", "balanceado"]
+  },
+  {
+    "id": "marquez-conejo-crianza-reproduccion-25kg",
+    "nombre": "Conejo Crianza y Reproducción",
+    "categoria": "Granja",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 17500
+    },
+    "stock": "consultar",
+    "tags": ["granja", "conejos", "cunicultura", "reproduccion"]
+  },
+  {
+    "id": "marquez-conejo-terminacion-25kg",
+    "nombre": "Conejo Terminación",
+    "categoria": "Granja",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 16600
+    },
+    "stock": "medio",
+    "tags": ["granja", "conejos", "cunicultura", "engorde"]
+  },
+  {
+    "id": "marquez-cerdo-desarrollo-25kg",
+    "nombre": "Cerdo Desarrollo",
+    "categoria": "Granja",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 23050
+    },
+    "stock": "alto",
+    "tags": ["granja", "cerdos", "porcinos", "desarrollo", "balanceado"]
+  },
+  {
+    "id": "marquez-cerdo-lechigador-25kg",
+    "nombre": "Cerdo Lechigador",
+    "categoria": "Granja",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 25800
+    },
+    "stock": "medio",
+    "tags": ["granja", "cerdos", "porcinos", "lechones", "balanceado"]
+  },
+  {
+    "id": "marquez-cerdo-terminacion-25kg",
+    "nombre": "Cerdo Terminación",
+    "categoria": "Granja",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 20700
+    },
+    "stock": "alto",
+    "tags": ["granja", "cerdos", "porcinos", "engorde", "terminacion"]
+  },
+  {
+    "id": "marquez-lecheras-16-25kg",
+    "nombre": "Lecheras 16%",
+    "categoria": "Granja",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 15700
+    },
+    "stock": "medio",
+    "tags": ["granja", "bovinos", "vacas", "tambo", "lecheras"]
+  },
+  {
+    "id": "marquez-bovino-desarrollo-25kg",
+    "nombre": "Bovino Desarrollo",
+    "categoria": "Granja",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 20500
+    },
+    "stock": "alto",
+    "tags": ["granja", "bovinos", "vacas", "terneros", "desarrollo"]
+  },
+  {
+    "id": "marquez-bovino-recria-25kg",
+    "nombre": "Bovino Recría",
+    "categoria": "Granja",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 17000
+    },
+    "stock": "alto",
+    "tags": ["granja", "bovinos", "vacas", "recria"]
+  },
+  {
+    "id": "gepsa-conc-bm-terneros-404-25kg",
+    "nombre": "Conc. Gepsa BM Terneros 404",
+    "categoria": "Granja",
+    "proveedor": "Gepsa",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 25500
+    },
+    "stock": "consultar",
+    "tags": ["granja", "bovinos", "terneros", "concentrado", "gepsa"]
+  },
+  {
+    "id": "marquez-equino-fortaleza-profesional-25kg",
+    "nombre": "Equino Fortaleza Profesional",
+    "categoria": "Granja",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 24100
+    },
+    "stock": "medio",
+    "tags": ["granja", "equinos", "caballos", "fortaleza"]
+  },
+  {
+    "id": "marquez-equino-fortaleza-progenie-25kg",
+    "nombre": "Equino Fortaleza Progenie",
+    "categoria": "Granja",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 28850
+    },
+    "stock": "consultar",
+    "tags": ["granja", "equinos", "caballos", "fortaleza", "progenie"]
+  },
+  {
+    "id": "neolac-sustituto-leche-25kg",
+    "nombre": "Sustituto de Leche NEOLAC",
+    "categoria": "Granja",
+    "proveedor": "Neolac",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 190000
+    },
+    "stock": "bajo",
+    "tags": ["granja", "sustituto", "leche", "terneros", "neolac"]
+  },
+  {
+    "id": "neolac-sustituto-leche-1kg",
+    "nombre": "Sustituto de Leche x Kgr.",
+    "categoria": "Granja",
+    "proveedor": "Neolac",
+    "unidad": "1 kg",
+    "precios": {
+      "unidad": 8400
+    },
+    "stock": "alto",
+    "tags": ["granja", "sustituto", "leche", "suelto"]
+  },
+  {
+    "id": "marquez-pellet-alfalfa-25kg",
+    "nombre": "Pellet de Alfalfa",
+    "categoria": "Granja",
+    "proveedor": "Marquez",
+    "unidad": "Bolsa 25 kg",
+    "precios": {
+      "unidad": 12000
+    },
+    "stock": "alto",
+    "destacado": true,
+    "tags": ["granja", "forrajeria", "alfalfa", "pellet", "caballos", "conejos"]
+  },
+  {
+    "id": "marquez-pellet-pajaro-1kg",
+    "nombre": "Pellet de Pájaro",
+    "categoria": "Granja",
+    "proveedor": "Marquez",
+    "unidad": "1 kg",
+    "precios": {
+      "unidad": 2500
+    },
+    "stock": "alto",
+    "tags": ["granja", "aves", "pajaros", "pellet", "suelto"]
+  },
+  {
+    "id": "osspret-shampoo-neutro-330ml",
+    "nombre": "Shampoo Osspret Neutro x 330 ml",
+    "categoria": "Estética",
+    "proveedor": "Osspret",
+    "unidad": "Unidad 330 ml",
+    "precios": {
+      "unidad": 4100
+    },
+    "stock": "alto",
+    "destacado": true,
+    "tags": ["mascotas", "perros", "shampoo", "estetica", "osspret", "petshop"]
+  },
+  {
+    "id": "osspret-shampoo-5lts",
+    "nombre": "Shampoo Osspret Bidón x 5 Lts",
+    "categoria": "Estética",
+    "proveedor": "Osspret",
+    "unidad": "Bidón 5 Lts",
+    "precios": {
+      "unidad": 35500
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "perros", "shampoo", "estetica", "osspret", "petshop", "peluqueria canina"]
+  },
+  {
+    "id": "osspret-shampoo-gatos-330ml",
+    "nombre": "Shampoo Osspret Gatos x 330 ml",
+    "categoria": "Estética",
+    "proveedor": "Osspret",
+    "unidad": "Unidad 330 ml",
+    "precios": {
+      "unidad": 4300
+    },
+    "stock": "alto",
+    "tags": ["mascotas", "gatos", "shampoo", "estetica", "osspret", "petshop"]
+  },
+  {
+    "id": "osspret-colonia-120ml",
+    "nombre": "Colonia Osspret x 120 ml",
+    "categoria": "Estética",
+    "proveedor": "Osspret",
+    "unidad": "Unidad 120 ml",
+    "precios": {
+      "unidad": 3800
+    },
+    "stock": "alto",
+    "tags": ["mascotas", "perros", "colonia", "perfume", "estetica", "osspret", "petshop"]
+  },
+  {
+    "id": "osspret-pipeta-perros-hasta-10kg",
+    "nombre": "Pipeta Osspret Perros Hasta 10 kg",
+    "categoria": "Farmacia",
+    "proveedor": "Osspret",
+    "unidad": "Unidad",
+    "precios": {
+      "unidad": 2500
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "perros", "pipeta", "pulguicida", "farmacia", "osspret"]
+  },
+  {
+    "id": "osspret-pipeta-perros-10-a-20kg",
+    "nombre": "Pipeta Osspret Perros 10 a 20 kg",
+    "categoria": "Farmacia",
+    "proveedor": "Osspret",
+    "unidad": "Unidad",
+    "precios": {
+      "unidad": 3100
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "perros", "pipeta", "pulguicida", "farmacia", "osspret"]
+  },
+  {
+    "id": "osspret-pipeta-gatos",
+    "nombre": "Pipeta Osspret Gatos",
+    "categoria": "Farmacia",
+    "proveedor": "Osspret",
+    "unidad": "Unidad",
+    "precios": {
+      "unidad": 2400
+    },
+    "stock": "alto",
+    "tags": ["mascotas", "gatos", "pipeta", "pulguicida", "farmacia", "osspret"]
+  },
+  {
+    "id": "osspret-jabon-pulguicida-100gr",
+    "nombre": "Jabón Osspret x 100 gr",
+    "categoria": "Estética",
+    "proveedor": "Osspret",
+    "unidad": "Unidad 100 gr",
+    "precios": {
+      "unidad": 1800
+    },
+    "stock": "alto",
+    "tags": ["mascotas", "perros", "jabon", "pulguicida", "estetica", "osspret"]
+  },
+  {
+    "id": "mk-shampoo-250ml",
+    "nombre": "Shampoo MK x 250 ml",
+    "categoria": "Estética",
+    "proveedor": "MK",
+    "unidad": "Unidad 250 ml",
+    "precios": {
+      "unidad": 2200
+    },
+    "stock": "alto",
+    "tags": ["mascotas", "perros", "shampoo", "estetica", "mk", "economico"]
+  },
+  {
+    "id": "mk-shampoo-5lts",
+    "nombre": "Shampoo MK Bidón x 5 Lts",
+    "categoria": "Estética",
+    "proveedor": "MK",
+    "unidad": "Bidón 5 Lts",
+    "precios": {
+      "unidad": 18500
+    },
+    "stock": "medio",
+    "tags": ["mascotas", "perros", "shampoo", "estetica", "mk", "peluqueria canina"]
   }
 ]
