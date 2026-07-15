@@ -50,11 +50,19 @@ export function CatalogPage({ productos }: CatalogPageProps) {
     [searchParamsString],
   );
 
+  // Dentro de CatalogPage.tsx, en el useMemo de productosBuscados:
   const productosBuscados = useMemo(() => {
-    const normalizedQuery = query.trim().toLocaleLowerCase("es-AR");
-
+    // Función para quitar acentos y pasar a minúsculas
+    const normalizar = (texto: string) => 
+      texto
+        .toLowerCase()
+        .normalize("NFD") // Descompone caracteres (ej: 'á' -> 'a' + '´')
+        .replace(/[\u0300-\u036f]/g, ""); // Elimina los acentos
+  
+    const queryNormalizada = normalizar(query);
+  
     return productos.filter((producto) => {
-      // ACTUALIZADO: Buscamos por proveedor en vez de marca y sacamos escalaPrecio
+      // Normalizamos cada campo del producto antes de comparar
       const searchableText = [
         producto.nombre,
         producto.categoria,
@@ -63,10 +71,10 @@ export function CatalogPage({ productos }: CatalogPageProps) {
         producto.unidad,
       ]
         .filter(Boolean)
-        .join(" ")
-        .toLocaleLowerCase("es-AR");
-
-      return searchableText.includes(normalizedQuery);
+        .map(t => normalizar(t as string))
+        .join(" ");
+  
+      return searchableText.includes(queryNormalizada);
     });
   }, [productos, query]);
 

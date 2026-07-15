@@ -29,13 +29,8 @@ const stockLabel: Record<NonNullable<Producto["stock"]>, string> = {
 };
 
 // Función utilitaria para formatear el precio a ARS
-const formatearDinero = (monto: number) => {
-  return new Intl.NumberFormat("es-AR", {
-    style: "currency",
-    currency: "ARS",
-    maximumFractionDigits: 0,
-  }).format(monto);
-};
+const formatearDinero = (precio: number) => 
+  new Intl.NumberFormat('es-AR', { style: 'currency', currency: 'ARS' }).format(precio);
 
 export function CatalogGrid({
   productos,
