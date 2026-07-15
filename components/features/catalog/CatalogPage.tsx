@@ -1,8 +1,8 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { MessageCircle, Search, X } from "lucide-react";
+import { MessageCircle, Search, X, ArrowUp } from "lucide-react";
 import { CategoryBanner } from "@/components/features/catalog/CategoryBanner";
 import { CatalogGrid } from "@/components/features/catalog/CatalogGrid";
 import { Button } from "@/components/ui/button";
@@ -40,6 +40,30 @@ export function CatalogPage({ productos }: CatalogPageProps) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const searchParamsString = searchParams.toString();
+
+  // 2. Estados para el scroll
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  // 3. Lógica para detectar scroll
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        setIsVisible(false); // Ocultar al bajar
+      } else {
+        setIsVisible(true); // Mostrar al subir
+      }
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [lastScrollY]);
+
+  // -------------------- FIN LÓGICA PARA DETECTAR SCROLL --------------------
+
+
   const [query, setQuery] = useState("");
   const [productoSeleccionado, setProductoSeleccionado] = useState<
     Producto | undefined
@@ -53,14 +77,14 @@ export function CatalogPage({ productos }: CatalogPageProps) {
   // Dentro de CatalogPage.tsx, en el useMemo de productosBuscados:
   const productosBuscados = useMemo(() => {
     // Función para quitar acentos y pasar a minúsculas
-    const normalizar = (texto: string) => 
+    const normalizar = (texto: string) =>
       texto
         .toLowerCase()
         .normalize("NFD") // Descompone caracteres (ej: 'á' -> 'a' + '´')
         .replace(/[\u0300-\u036f]/g, ""); // Elimina los acentos
-  
+
     const queryNormalizada = normalizar(query);
-  
+
     return productos.filter((producto) => {
       // Normalizamos cada campo del producto antes de comparar
       const searchableText = [
@@ -73,7 +97,7 @@ export function CatalogPage({ productos }: CatalogPageProps) {
         .filter(Boolean)
         .map(t => normalizar(t as string))
         .join(" ");
-  
+
       return searchableText.includes(queryNormalizada);
     });
   }, [productos, query]);
@@ -103,7 +127,8 @@ export function CatalogPage({ productos }: CatalogPageProps) {
 
   return (
     <main className="min-h-screen pb-28">
-      <header className="sticky top-0 z-20 border-b bg-background/95 backdrop-blur">
+      <header className={`sticky top-0 z-20 border-b bg-background/95 backdrop-blur transition-transform duration-500 ease-in-out ${isVisible ? "translate-y-0" : "-translate-y-full"
+        }`}>
         <div className="mx-auto flex w-full max-w-6xl flex-col gap-3 px-4 py-4">
           <div className="flex items-center justify-between gap-4">
             <div>
@@ -188,7 +213,14 @@ export function CatalogPage({ productos }: CatalogPageProps) {
           </div>
         ) : null}
       </section>
-
+{/* Boton para volver arriba */}
+<button
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              className="fixed bottom-20 right-4 z-30 flex h-12 w-12 items-center justify-center rounded-full bg-zinc-900 text-white shadow-lg transition-transform hover:scale-110"
+              aria-label="Volver arriba"
+            >
+              <ArrowUp className="h-6 w-6" />
+            </button>
       <Button
         asChild
         className="fixed bottom-5 right-4 z-30 h-12 rounded-full px-5 shadow-lg"
