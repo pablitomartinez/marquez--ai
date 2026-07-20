@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
-import { MessageCircle, PackageCheck, Star } from "lucide-react";
+import { MessageCircle, Star } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
@@ -21,6 +21,17 @@ type CatalogGridProps = {
   nicho?: NichoSlug | null;
 };
 
+const PLACEHOLDER_IMAGE = "/placeholder-marquez.png";
+
+const obtenerImagenProducto = (imagen?: string) => {
+  // Si no hay propiedad imagen en el JSON, devolvemos directo el placeholder local
+  if (!imagen || typeof imagen !== 'string' || !imagen.startsWith('http')) {
+    return PLACEHOLDER_IMAGE;
+  }
+  
+  return imagen.trim();
+};
+
 const stockLabel: Record<NonNullable<Producto["stock"]>, string> = {
   alto: "Stock alto",
   medio: "Stock medio",
@@ -28,9 +39,11 @@ const stockLabel: Record<NonNullable<Producto["stock"]>, string> = {
   consultar: "Consultar",
 };
 
-// Función utilitaria para formatear el precio a ARS
-const formatearDinero = (precio: number) => 
-  new Intl.NumberFormat('es-AR', { style: 'currency', currency: 'ARS' }).format(precio);
+const formatearDinero = (precio: number) =>
+  new Intl.NumberFormat("es-AR", {
+    style: "currency",
+    currency: "ARS",
+  }).format(precio);
 
 export function CatalogGrid({
   productos,
@@ -59,22 +72,16 @@ export function CatalogGrid({
             transition={{ duration: 0.18, ease: "easeOut" }}
           >
             <Card className="h-full overflow-hidden border-zinc-200 bg-white shadow-industrial">
-              {producto.imagen ? (
-                <div className="relative aspect-[4/3] bg-muted">
-                  <Image
-                    src={producto.imagen}
-                    alt={producto.nombre}
-                    fill
-                    sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                    className="object-cover"
-                    loading="lazy"
-                  />
-                </div>
-              ) : (
-                <div className="flex aspect-[4/3] items-center justify-center bg-zinc-950 text-primary">
-                  <PackageCheck className="h-12 w-12" aria-hidden="true" />
-                </div>
-              )}
+              <div className="relative aspect-[4/3] bg-zinc-100">
+                <Image
+                  src={obtenerImagenProducto(producto.imagen)}
+                  alt={producto.nombre}
+                  fill
+                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                  className="object-cover transition-opacity duration-300"
+                  loading="lazy"
+                />
+              </div>
 
               <CardHeader>
                 <div className="flex items-start justify-between gap-3">
@@ -109,7 +116,6 @@ export function CatalogGrid({
                   ) : null}
                 </div>
 
-                {/* --- NUEVA TABLA DE PRECIOS B2B --- */}
                 {producto.precios ? (
                   <div className="mt-4 rounded-md border border-zinc-200 bg-zinc-50 p-3">
                     <div className="flex items-center justify-between text-sm">
@@ -118,10 +124,12 @@ export function CatalogGrid({
                         {formatearDinero(producto.precios.unidad)}
                       </span>
                     </div>
-                    
+
                     {producto.precios.masDe2 ? (
                       <div className="mt-1 flex items-center justify-between border-t border-zinc-200 pt-1 text-sm">
-                        <span className="font-bold text-green-700">+2 Cantidad:</span>
+                        <span className="font-bold text-green-700">
+                          +2 Cantidad:
+                        </span>
                         <span className="font-bold text-green-700">
                           {formatearDinero(producto.precios.masDe2)}
                         </span>
@@ -130,7 +138,9 @@ export function CatalogGrid({
 
                     {producto.precios.masDe10 ? (
                       <div className="mt-1 flex items-center justify-between border-t border-zinc-200 pt-1 text-sm">
-                        <span className="font-black text-amber-600">+10 Cantidad:</span>
+                        <span className="font-black text-amber-600">
+                          +10 Cantidad:
+                        </span>
                         <span className="font-black text-amber-600">
                           {formatearDinero(producto.precios.masDe10)}
                         </span>
